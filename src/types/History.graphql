@@ -1,0 +1,16 @@
+enum HistoryItemType {
+    VISITED_BLOG_POST
+    FAVORITED_BLOG_POST
+    COMMENTED_BLOG_POST
+}
+
+type HistoryItem {
+    title: String
+    description: String @translate
+    type: HistoryItemType
+    occurDate: String @formatDate
+}
+
+extend type Query {
+    getHistory: [HistoryItem]
+}

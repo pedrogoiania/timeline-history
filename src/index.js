@@ -2,7 +2,6 @@ const { ApolloServer } = require('apollo-server');
 
 const resolvers = require('./resolvers');
 const types = require('./types');
-const controllers = require('./controllers');
 
 const directives = require('./directives');
 
@@ -31,7 +30,6 @@ const typeDefs = [
 
 const context = ({ req }) => ({
   headers: req.headers,
-  controllers,
 });
 
 const server = new ApolloServer({

@@ -1,4 +1,5 @@
 const { SchemaDirectiveVisitor, gql } = require('apollo-server');
+const { defaultFieldResolver } = require('graphql');
 
 const translationService = require('../services/translations');
 
@@ -16,16 +17,15 @@ class TranslateDirective extends SchemaDirectiveVisitor {
     return translationService.getTranslationByKey(translationKey, acceptLanguage);
   }
 
-
   visitFieldDefinition(field) {
-    const originalResolver = field.resolve;
+    const { resolve = defaultFieldResolver } = field;
     const { isNullable } = this.args;
 
     field.resolve = async (...args) => {
       const [,, ctx] = args;
       const { headers } = ctx;
-      const resolver = originalResolver || ctx.graphql.defaultFieldResolver;
-      const translationKey = await resolver.apply(this, args);
+
+      const translationKey = await resolve.apply(this, args);
 
       if (!translationKey && isNullable) return undefined;
 

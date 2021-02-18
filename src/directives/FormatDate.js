@@ -1,6 +1,7 @@
 const { SchemaDirectiveVisitor, gql } = require('apollo-server');
-const headersUtils = require('../utils/headers');
+const { defaultFieldResolver } = require('graphql');
 
+const headersUtils = require('../utils/headers');
 
 class FormatDate extends SchemaDirectiveVisitor {
   static declaration() {
@@ -23,13 +24,12 @@ class FormatDate extends SchemaDirectiveVisitor {
   }
 
   visitFieldDefinition(field) {
-    const originalResolver = field.resolve;
+    const { resolve = defaultFieldResolver } = field;
 
     field.resolve = async (...args) => {
       const [,, ctx] = args;
       const { headers } = ctx;
-      const resolver = originalResolver || ctx.graphql.defaultFieldResolver;
-      const occurDate = await resolver.apply(this, args);
+      const occurDate = await resolve.apply(this, args);
 
       return this.formatField(occurDate, headers);
     };
