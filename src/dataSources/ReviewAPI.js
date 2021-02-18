@@ -10,42 +10,49 @@ class ReviewAPI extends RESTDataSource {
     this.baseURL = 'http://link.to.api';
   }
 
-  async userTransactions() {
+  async getReviews() {
     // return this.get();
 
     const responseOfCall = [
       {
-        title: 'transferencia entre contas',
-        description: 'grana do aluguel',
-        value: 2000,
-        category: {
-          title: 'TIB',
-          icon: 'bank_icon',
-        },
-        icon: 'money_icon',
-        occur_date: '2020-04-30T03:00:00-03:00',
+        id: 0,
+        foreing_id: 10,
+        message: 'produto legal A',
+        description: 'revised-product-message-key',
+        category: 'product',
+        created_at: '2020-04-28T03:00:00-03:00',
       },
       {
-        title: 'transferencia entre contas',
-        description: 'grana do aluguel',
-        value: 2000,
-        category: {
-          title: 'TIB',
-          icon: 'bank_icon',
-        },
-        icon: 'money_icon',
-        occur_date: '2020-04-30T03:00:00-03:00',
+        id: 1,
+        foreing_id: 20,
+        message: 'blog legal A',
+        description: 'revised-blog-message-key',
+        category: 'blog-post',
+        created_at: '2020-04-23T03:00:00-03:00',
       },
       {
-        title: 'transferencia entre contas',
-        description: 'grana do aluguel',
-        value: 2000,
-        category: {
-          title: 'TIB',
-          icon: 'bank_icon',
-        },
-        icon: 'money_icon',
-        occur_date: '2020-04-30T03:00:00-03:00',
+        id: 2,
+        foreing_id: 30,
+        message: 'usuario legal A',
+        description: 'revised-user-message-key',
+        category: 'user',
+        created_at: '2020-04-17T03:00:00-03:00',
+      },
+      {
+        id: 3,
+        foreing_id: 21,
+        message: 'blog legal B',
+        description: 'revised-blog-message-key',
+        category: 'blog-post',
+        created_at: '2020-04-12T03:00:00-03:00',
+      },
+      {
+        id: 4,
+        foreing_id: 31,
+        message: 'User C',
+        description: 'revised-blog-message-key',
+        category: 'user',
+        created_at: '2020-04-03T03:00:00-03:00',
       },
     ];
 

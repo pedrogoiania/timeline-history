@@ -10,7 +10,7 @@ enum HistoryItemType {
 }
 
 type HistoryItem {
-    title: String
+    label: String
     description: String @translate
     type: HistoryItemType
     occurDate: String @formatDate
