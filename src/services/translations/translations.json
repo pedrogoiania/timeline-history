@@ -40,39 +40,39 @@
     "pt": [
         {
             "key": "favorite-product-message-key",
-            "value": "Produto favoritado en: "
+            "value": "Produto favoritado em: "
         },
         {
             "key": "favorite-blog-message-key",
-            "value": "Blog favoritado en: "
+            "value": "Blog favoritado em: "
         },
         {
             "key": "favorite-user-message-key",
-            "value": "Usuário favoritado en: "
+            "value": "Usuário favoritado em: "
         },
         {
             "key": "revised-product-message-key",
-            "value": "Produto revisado en: "
+            "value": "Produto revisado em: "
         },
         {
             "key": "revised-blog-message-key",
-            "value": "Blog revisado en: "
+            "value": "Blog revisado em: "
         },
         {
             "key": "revised-user-message-key",
-            "value": "Usuário revisado en: "
+            "value": "Usuário revisado em: "
         },
         {
             "key": "visited-product-message-key",
-            "value": "Produto visitado en: "
+            "value": "Produto visitado em: "
         },
         {
             "key": "visited-blog-message-key",
-            "value": "Blog visitado en: "
+            "value": "Blog visitado em: "
         },
         {
             "key": "visited-user-message-key",
-            "value": "Usuário visitado en: "
+            "value": "Usuário visitado em: "
         }
     ],
     "es": [
