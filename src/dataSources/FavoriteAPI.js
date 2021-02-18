@@ -10,42 +10,44 @@ class AccountAPI extends RESTDataSource {
     this.baseURL = 'http://link.to.api';
   }
 
-  async userTransactions() {
+  async getFavorites() {
     // return this.get();
 
     const responseOfCall = [
       {
-        title: 'transferencia entre contas',
-        description: 'grana do aluguel',
-        value: 2000,
-        category: {
-          title: 'TIB',
-          icon: 'bank_icon',
-        },
-        icon: 'money_icon',
-        occur_date: '2020-04-30T03:00:00-03:00',
+        id: 0,
+        title: 'Produto A',
+        description: 'favorite-product',
+        category: 'product',
+        created_at: '2020-04-30T03:00:00-03:00',
       },
       {
-        title: 'transferencia entre contas',
-        description: 'grana do aluguel',
-        value: 2000,
-        category: {
-          title: 'TIB',
-          icon: 'bank_icon',
-        },
-        icon: 'money_icon',
-        occur_date: '2020-04-30T03:00:00-03:00',
+        id: 1,
+        title: 'Blog Post A',
+        description: 'favorite-blog',
+        category: 'blog-post',
+        created_at: '2020-04-15T03:00:00-03:00',
       },
       {
-        title: 'transferencia entre contas',
-        description: 'grana do aluguel',
-        value: 2000,
-        category: {
-          title: 'TIB',
-          icon: 'bank_icon',
-        },
-        icon: 'money_icon',
-        occur_date: '2020-04-30T03:00:00-03:00',
+        id: 2,
+        title: 'User A',
+        description: 'favorite-blog',
+        category: 'blog-post',
+        created_at: '2020-04-10T03:00:00-03:00',
+      },
+      {
+        id: 3,
+        title: 'Blog Post B',
+        description: 'favorite-blog',
+        category: 'blog-post',
+        created_at: '2020-04-16T03:00:00-03:00',
+      },
+      {
+        id: 4,
+        title: 'User C',
+        description: 'favorite-blog',
+        category: 'blog-post',
+        created_at: '2020-04-11T03:00:00-03:00',
       },
     ];
 
