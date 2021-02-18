@@ -17,10 +17,16 @@ const directivesTypesDefs = [
 
 const {
   AccountAPI,
+  FavoriteAPI,
+  ReviewAPI,
+  VisitAPI,
 } = require('./dataSources');
 
 const dataSources = () => ({
   AccountAPI: new AccountAPI(),
+  FavoriteAPI: new FavoriteAPI(),
+  ReviewAPI: new ReviewAPI(),
+  VisitAPI: new VisitAPI(),
 });
 
 const typeDefs = [
