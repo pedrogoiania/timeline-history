@@ -14,6 +14,7 @@ class TranslateDirective extends SchemaDirectiveVisitor {
 
   translatedValue(translationKey, headers) {
     const acceptLanguage = headersUtils.acceptLanguage(headers);
+
     return translationService.getTranslationByKey(translationKey, acceptLanguage);
   }
 

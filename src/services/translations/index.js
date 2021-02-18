@@ -1,13 +1,13 @@
 const translations = require('./translations.json');
 
-const contentLanguages = ['en-us', 'pt-br', 'es-es'];
+const contentLanguages = ['en', 'pt', 'es'];
 
 /**
  * @description can do or use a real translation service
  */
-const getTranslationByKey = (key, acceptLanguage = 'en-us') => {
+const getTranslationByKey = (key, acceptLanguage = 'en') => {
   if (!contentLanguages.includes(acceptLanguage)) {
-    acceptLanguage = 'en-us';
+    acceptLanguage = 'en';
   }
 
   const keys = translations[acceptLanguage];

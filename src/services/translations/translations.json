@@ -1,284 +1,116 @@
 {
-    "en-us": [
+    "en": [
         {
-            "key": "feeling.happy",
-            "value": "happy"
+            "key": "favorite-product-message-key",
+            "value": "Favorite product in: "
         },
         {
-            "key": "feeling.confident",
-            "value": "confident"
+            "key": "favorite-blog-message-key",
+            "value": "Favorite blog in: "
         },
         {
-            "key": "feeling.proud",
-            "value": "proud"
+            "key": "favorite-user-message-key",
+            "value": "Favorite user in: "
         },
         {
-            "key": "feeling.greatful",
-            "value": "greatful"
+            "key": "revised-product-message-key",
+            "value": "Product reviewed at: "
         },
         {
-            "key": "feeling.numb",
-            "value": "numb"
+            "key": "revised-blog-message-key",
+            "value": "Blog reviewed at: "
         },
         {
-            "key": "feeling.angry",
-            "value": "angry"
+            "key": "revised-user-message-key",
+            "value": "User reviewed at: "
         },
         {
-            "key": "feeling.bored",
-            "value": "bored"
+            "key": "visited-product-message-key",
+            "value": "Product visited at: "
         },
         {
-            "key": "feeling.joyful",
-            "value": "joyful"
+            "key": "visited-blog-message-key",
+            "value": "Blog visited at: "
         },
         {
-            "key": "feeling.optimistic",
-            "value": "optimistic"
-        },
-        {
-            "key": "feeling.okay",
-            "value": "okay"
-        },
-        {
-            "key": "feeling.depressed",
-            "value": "depressed"
-        },
-        {
-            "key": "feeling.wicked",
-            "value": "wicked"
-        },
-        {
-            "key": "feeling.excited",
-            "value": "excited"
-        },
-        {
-            "key": "feeling.anxious",
-            "value": "anxious"
-        },
-        {
-            "key": "feeling.stressed",
-            "value": "stressed"
-        },
-        {
-            "key": "feeling.tired",
-            "value": "tired"
-        },
-        {
-            "key": "feeling.ashamed",
-            "value": "ashamed"
-        },
-        {
-            "key": "feeling.insecure",
-            "value": "insecure"
-        },
-        {
-            "key": "feeling.sad",
-            "value": "sad"
-        },
-        {
-            "key": "feeling.envious",
-            "value": "envious"
-        },
-        {
-            "key": "feeling.disgusted",
-            "value": "disgusted"
-        },
-        {
-            "key": "feeling.friendly",
-            "value": "friendly"
-        },
-        {
-            "key": "feeling.positive",
-            "value": "positive"
+            "key": "visited-user-message-key",
+            "value": "User visited at: "
         }
     ],
-    "pt-br": [
+    "pt": [
         {
-            "key": "feeling.happy",
-            "value": "feliz"
+            "key": "favorite-product-message-key",
+            "value": "Produto favoritado en: "
         },
         {
-            "key": "feeling.confident",
-            "value": "confiante"
+            "key": "favorite-blog-message-key",
+            "value": "Blog favoritado en: "
         },
         {
-            "key": "feeling.proud",
-            "value": "orgulhoso"
+            "key": "favorite-user-message-key",
+            "value": "Usuário favoritado en: "
         },
         {
-            "key": "feeling.greatful",
-            "value": "agradecido"
+            "key": "revised-product-message-key",
+            "value": "Produto revisado en: "
         },
         {
-            "key": "feeling.numb",
-            "value": "dormente"
+            "key": "revised-blog-message-key",
+            "value": "Blog revisado en: "
         },
         {
-            "key": "feeling.angry",
-            "value": "bravo"
+            "key": "revised-user-message-key",
+            "value": "Usuário revisado en: "
         },
         {
-            "key": "feeling.bored",
-            "value": "entediado"
+            "key": "visited-product-message-key",
+            "value": "Produto visitado en: "
         },
         {
-            "key": "feeling.joyful",
-            "value": "alegre"
+            "key": "visited-blog-message-key",
+            "value": "Blog visitado en: "
         },
         {
-            "key": "feeling.optimistic",
-            "value": "otimista"
-        },
-        {
-            "key": "feeling.okay",
-            "value": "De boaa"
-        },
-        {
-            "key": "feeling.depressed",
-            "value": "deprimido"
-        },
-        {
-            "key": "feeling.wicked",
-            "value": "perveso"
-        },
-        {
-            "key": "feeling.excited",
-            "value": "animado"
-        },
-        {
-            "key": "feeling.anxious",
-            "value": "ansioso"
-        },
-        {
-            "key": "feeling.stressed",
-            "value": "estressado"
-        },
-        {
-            "key": "feeling.tired",
-            "value": "cansado"
-        },
-        {
-            "key": "feeling.ashamed",
-            "value": "envergonhado"
-        },
-        {
-            "key": "feeling.insecure",
-            "value": "inseguro"
-        },
-        {
-            "key": "feeling.sad",
-            "value": "triste"
-        },
-        {
-            "key": "feeling.envious",
-            "value": "invejado"
-        },
-        {
-            "key": "feeling.disgusted",
-            "value": "com nojo"
-        },
-        {
-            "key": "feeling.friendly",
-            "value": "amigável"
-        },
-        {
-            "key": "feeling.positive",
-            "value": "positiv"
+            "key": "visited-user-message-key",
+            "value": "Usuário visitado en: "
         }
     ],
-    "es-es": [
+    "es": [
         {
-            "key": "feeling.happy",
-            "value": "contento"
+            "key": "favorite-product-message-key",
+            "value": "Producto favorito en: "
         },
         {
-            "key": "feeling.confident",
-            "value": "Confiado"
+            "key": "favorite-blog-message-key",
+            "value": "Blog favorito en: "
         },
         {
-            "key": "feeling.proud",
-            "value": "orgulloso"
+            "key": "favorite-user-message-key",
+            "value": "Usuario favorito en: "
         },
         {
-            "key": "feeling.greatful",
-            "value": "agradecido"
+            "key": "revised-product-message-key",
+            "value": "Producto revisado en: "
         },
         {
-            "key": "feeling.numb",
-            "value": "entumecido"
+            "key": "revised-blog-message-key",
+            "value": "Blog revisado en: "
         },
         {
-            "key": "feeling.angry",
-            "value": "enojado"
+            "key": "revised-user-message-key",
+            "value": "Usuario revisado en: "
         },
         {
-            "key": "feeling.bored",
-            "value": "alegre"
+            "key": "visited-product-message-key",
+            "value": "Producto visitado en: "
         },
         {
-            "key": "feeling.joyful",
-            "value": "joyful"
+            "key": "visited-blog-message-key",
+            "value": "Blog visitado en: "
         },
         {
-            "key": "feeling.optimistic",
-            "value": "optimista"
-        },
-        {
-            "key": "feeling.okay",
-            "value": "bueno"
-        },
-        {
-            "key": "feeling.depressed",
-            "value": "deprimido"
-        },
-        {
-            "key": "feeling.wicked",
-            "value": "malvado"
-        },
-        {
-            "key": "feeling.excited",
-            "value": "emocionado"
-        },
-        {
-            "key": "feeling.anxious",
-            "value": "ansioso"
-        },
-        {
-            "key": "feeling.stressed",
-            "value": "estresado"
-        },
-        {
-            "key": "feeling.tired",
-            "value": "cansado"
-        },
-        {
-            "key": "feeling.ashamed",
-            "value": "avergonzado"
-        },
-        {
-            "key": "feeling.insecure",
-            "value": "inseguro"
-        },
-        {
-            "key": "feeling.sad",
-            "value": "triste"
-        },
-        {
-            "key": "feeling.envious",
-            "value": "envidioso"
-        },
-        {
-            "key": "feeling.disgusted",
-            "value": "Asqueado"
-        },
-        {
-            "key": "feeling.friendly",
-            "value": "simpático"
-        },
-        {
-            "key": "feeling.positive",
-            "value": "positivo"
+            "key": "visited-user-message-key",
+            "value": "Usuario visitado en: "
         }
     ]
 }
