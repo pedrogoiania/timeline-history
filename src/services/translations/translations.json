@@ -1,0 +1,284 @@
+{
+    "en-us": [
+        {
+            "key": "feeling.happy",
+            "value": "happy"
+        },
+        {
+            "key": "feeling.confident",
+            "value": "confident"
+        },
+        {
+            "key": "feeling.proud",
+            "value": "proud"
+        },
+        {
+            "key": "feeling.greatful",
+            "value": "greatful"
+        },
+        {
+            "key": "feeling.numb",
+            "value": "numb"
+        },
+        {
+            "key": "feeling.angry",
+            "value": "angry"
+        },
+        {
+            "key": "feeling.bored",
+            "value": "bored"
+        },
+        {
+            "key": "feeling.joyful",
+            "value": "joyful"
+        },
+        {
+            "key": "feeling.optimistic",
+            "value": "optimistic"
+        },
+        {
+            "key": "feeling.okay",
+            "value": "okay"
+        },
+        {
+            "key": "feeling.depressed",
+            "value": "depressed"
+        },
+        {
+            "key": "feeling.wicked",
+            "value": "wicked"
+        },
+        {
+            "key": "feeling.excited",
+            "value": "excited"
+        },
+        {
+            "key": "feeling.anxious",
+            "value": "anxious"
+        },
+        {
+            "key": "feeling.stressed",
+            "value": "stressed"
+        },
+        {
+            "key": "feeling.tired",
+            "value": "tired"
+        },
+        {
+            "key": "feeling.ashamed",
+            "value": "ashamed"
+        },
+        {
+            "key": "feeling.insecure",
+            "value": "insecure"
+        },
+        {
+            "key": "feeling.sad",
+            "value": "sad"
+        },
+        {
+            "key": "feeling.envious",
+            "value": "envious"
+        },
+        {
+            "key": "feeling.disgusted",
+            "value": "disgusted"
+        },
+        {
+            "key": "feeling.friendly",
+            "value": "friendly"
+        },
+        {
+            "key": "feeling.positive",
+            "value": "positive"
+        }
+    ],
+    "pt-br": [
+        {
+            "key": "feeling.happy",
+            "value": "feliz"
+        },
+        {
+            "key": "feeling.confident",
+            "value": "confiante"
+        },
+        {
+            "key": "feeling.proud",
+            "value": "orgulhoso"
+        },
+        {
+            "key": "feeling.greatful",
+            "value": "agradecido"
+        },
+        {
+            "key": "feeling.numb",
+            "value": "dormente"
+        },
+        {
+            "key": "feeling.angry",
+            "value": "bravo"
+        },
+        {
+            "key": "feeling.bored",
+            "value": "entediado"
+        },
+        {
+            "key": "feeling.joyful",
+            "value": "alegre"
+        },
+        {
+            "key": "feeling.optimistic",
+            "value": "otimista"
+        },
+        {
+            "key": "feeling.okay",
+            "value": "De boaa"
+        },
+        {
+            "key": "feeling.depressed",
+            "value": "deprimido"
+        },
+        {
+            "key": "feeling.wicked",
+            "value": "perveso"
+        },
+        {
+            "key": "feeling.excited",
+            "value": "animado"
+        },
+        {
+            "key": "feeling.anxious",
+            "value": "ansioso"
+        },
+        {
+            "key": "feeling.stressed",
+            "value": "estressado"
+        },
+        {
+            "key": "feeling.tired",
+            "value": "cansado"
+        },
+        {
+            "key": "feeling.ashamed",
+            "value": "envergonhado"
+        },
+        {
+            "key": "feeling.insecure",
+            "value": "inseguro"
+        },
+        {
+            "key": "feeling.sad",
+            "value": "triste"
+        },
+        {
+            "key": "feeling.envious",
+            "value": "invejado"
+        },
+        {
+            "key": "feeling.disgusted",
+            "value": "com nojo"
+        },
+        {
+            "key": "feeling.friendly",
+            "value": "amigável"
+        },
+        {
+            "key": "feeling.positive",
+            "value": "positiv"
+        }
+    ],
+    "es-es": [
+        {
+            "key": "feeling.happy",
+            "value": "contento"
+        },
+        {
+            "key": "feeling.confident",
+            "value": "Confiado"
+        },
+        {
+            "key": "feeling.proud",
+            "value": "orgulloso"
+        },
+        {
+            "key": "feeling.greatful",
+            "value": "agradecido"
+        },
+        {
+            "key": "feeling.numb",
+            "value": "entumecido"
+        },
+        {
+            "key": "feeling.angry",
+            "value": "enojado"
+        },
+        {
+            "key": "feeling.bored",
+            "value": "alegre"
+        },
+        {
+            "key": "feeling.joyful",
+            "value": "joyful"
+        },
+        {
+            "key": "feeling.optimistic",
+            "value": "optimista"
+        },
+        {
+            "key": "feeling.okay",
+            "value": "bueno"
+        },
+        {
+            "key": "feeling.depressed",
+            "value": "deprimido"
+        },
+        {
+            "key": "feeling.wicked",
+            "value": "malvado"
+        },
+        {
+            "key": "feeling.excited",
+            "value": "emocionado"
+        },
+        {
+            "key": "feeling.anxious",
+            "value": "ansioso"
+        },
+        {
+            "key": "feeling.stressed",
+            "value": "estresado"
+        },
+        {
+            "key": "feeling.tired",
+            "value": "cansado"
+        },
+        {
+            "key": "feeling.ashamed",
+            "value": "avergonzado"
+        },
+        {
+            "key": "feeling.insecure",
+            "value": "inseguro"
+        },
+        {
+            "key": "feeling.sad",
+            "value": "triste"
+        },
+        {
+            "key": "feeling.envious",
+            "value": "envidioso"
+        },
+        {
+            "key": "feeling.disgusted",
+            "value": "Asqueado"
+        },
+        {
+            "key": "feeling.friendly",
+            "value": "simpático"
+        },
+        {
+            "key": "feeling.positive",
+            "value": "positivo"
+        }
+    ]
+}

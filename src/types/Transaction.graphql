@@ -1,0 +1,19 @@
+type AccountTransaction {
+    title: String @translate
+    category: Category
+    value: Int
+    occur_date: String
+}
+
+type CreditCardTransaction {
+    title: String @translate
+    category: Category
+    value: Int
+    occur_date: String
+}
+
+union Transaction = AccountTransaction | CreditCardTransaction
+
+type Query {
+    getAllItems: [Transaction]
+}

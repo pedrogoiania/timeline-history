@@ -1,0 +1,33 @@
+{
+  "name": "remote-party-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon  -e js,graphql",
+    "start:prod": "pm2 start src/index.js --name how-are-you-api"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-datasource-rest": "^0.9.0",
+    "apollo-server": "2.9.4",
+    "graphql": "^15.0.0",
+    "graphql-extensions": "^0.11.0",
+    "graphql-tools": "^6.0.1",
+    "mongoose": "^5.9.7",
+    "pm2": "^4.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.2.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.0",
+    "husky": "^3.0.5",
+    "nodemon": "^1.19.1",
+    "prettier": "^1.18.2"
+  }
+}

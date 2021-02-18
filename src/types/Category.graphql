@@ -1,0 +1,5 @@
+type Category {
+    title: String
+    icon: String
+    type: String
+}
