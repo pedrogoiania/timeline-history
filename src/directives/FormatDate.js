@@ -2,6 +2,7 @@ const { SchemaDirectiveVisitor, gql } = require('apollo-server');
 const { defaultFieldResolver } = require('graphql');
 
 const headersUtils = require('../utils/headers');
+const intlUtils = require('../utils/intlDate');
 
 class FormatDate extends SchemaDirectiveVisitor {
   static declaration() {
@@ -10,17 +11,9 @@ class FormatDate extends SchemaDirectiveVisitor {
       `;
   }
 
-  formatts(language) {
-    return {
-      en: 'YYYY/MM/DD',
-      pt: 'DD/MM/YYYY',
-    }[language];
-  }
-
   formatField(date, headers) {
     const language = headersUtils.acceptLanguage(headers);
-    const newDate = new Date(date);
-    return newDate.toLocaleDateString(language);
+    return intlUtils.formatDate(language, date);
   }
 
   visitFieldDefinition(field) {
